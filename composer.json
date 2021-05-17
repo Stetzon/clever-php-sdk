@@ -28,7 +28,7 @@
         "friendsofphp/php-cs-fixer": "~1.12"
     },
     "autoload": {
-        "psr-4": { "Clever\\" : "lib/" }
+        "psr-4": { "Swagger\\" : "lib/" }
     },
     "autoload-dev": {
         "psr-4": { "Clever\\" : "test/" }
