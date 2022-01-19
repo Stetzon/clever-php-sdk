@@ -1,5 +1,5 @@
 {
-    "name": "Stetzon/clever-php-sdk",
+    "name": "stetzon/clever-php-sdk",
     "description": "",
     "keywords": [
         "swagger",
@@ -16,16 +16,16 @@
         }
     ],
     "require": {
-        "php": "^7.2.5",
+        "php": "^8.0",
         "ext-curl": "*",
         "ext-json": "*",
         "ext-mbstring": "*",
-        "guzzlehttp/guzzle": "^7.0.1"
+        "guzzlehttp/guzzle": "^7.4.1"
     },
     "require-dev": {
-        "phpunit/phpunit": "^4.8",
+        "phpunit/phpunit": "^9.3",
         "squizlabs/php_codesniffer": "~2.6",
-        "friendsofphp/php-cs-fixer": "~1.12"
+        "friendsofphp/php-cs-fixer": "^3.5.0"
     },
     "autoload": {
         "psr-4": { "Swagger\\" : "lib/" }
