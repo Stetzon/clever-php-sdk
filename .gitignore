@@ -1,3 +1,4 @@
 .swagger-codegen-ignore
 .swagger-codegen/
 override.sh
+vendor/
